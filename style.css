@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #f4f4f4;
+  width: 100%;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-family:
+    Iosevka Charon,
+    monospace;
+}
+.banner {
+  background-image: url(Rectangle.png);
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: Ubuntu;
+}
+
+article {
+  background-color: #f4f4f4;
+}
+.col {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  column-gap: 50px;
+}
+.card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+.card > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 3px;
+  gap: 130px;
+}
+.australian {
+  background-image: url("foto/Australia.png");
+  background-size: cover;
+  border: 2px solid black;
+  width: 150px;
+  height: 200px;
+}
+.chinese {
+  background-image: url("foto/Chine.png");
+  background-size: cover;
+  border: 2px solid black;
+  width: 150px;
+  height: 200px;
+}
+.japanese {
+  background-image: url("foto/Japan.png");
+  background-size: cover;
+  border: 2px solid black;
+  width: 150px;
+  height: 200px;
+}
+.miami {
+  background-image: url("foto/Miami.png");
+  background-size: cover;
+  border: 2px solid black;
+  width: 150px;
+  height: 200px;
+}
+.canadian {
+  background-image: url("foto/Canada.png");
+  background-size: cover;
+  border: 2px solid black;
+  width: 150px;
+  height: 200px;
+}
+.monaco {
+  background-image: url("foto/Monaco.png");
+  background-size: cover;
+  border: 2px solid black;
+  width: 150px;
+  height: 200px;
+}
+.barcelona {
+  background-image: url("foto/Barcelona.png");
+  background-size: cover;
+  border: 2px solid black;
+  width: 150px;
+  height: 200px;
+}
+.austria {
+  background-image: url("foto/Austria.png");
+  background-size: cover;
+  border: 2px solid black;
+  width: 150px;
+  height: 200px;
+}
+.britain {
+  background-image: url("foto/Britain.png");
+  background-size: cover;
+  border: 2px solid black;
+  width: 150px;
+  height: 200px;
+}
+.belgium {
+  background-image: url("foto/Belgium.png");
+  background-size: cover;
+  border: 2px solid black;
+  width: 150px;
+  height: 200px;
+}
+.hungary {
+  background-image: url("foto/Hungary.png");
+  background-size: cover;
+  border: 2px solid black;
+  width: 150px;
+  height: 200px;
+}
+.netherlands {
+  background-image: url("foto/Netherlands.png");
+  background-size: cover;
+  border: 2px solid black;
+  width: 150px;
+  height: 200px;
+}
+.italy {
+  background-image: url("foto/Italy.png");
+  background-size: cover;
+  border: 2px solid black;
+  width: 150px;
+  height: 200px;
+}
+.madrid {
+  background-image: url("foto/Madrid.png");
+  background-size: cover;
+  border: 2px solid black;
+  width: 150px;
+  height: 200px;
+}
+.azerbaijan {
+  background-image: url("foto/Azerbaijan.png");
+  background-size: cover;
+  border: 2px solid black;
+  width: 150px;
+  height: 200px;
+}
+.singapore {
+  background-image: url("foto/Singapore.png");
+  background-size: cover;
+  border: 2px solid black;
+  width: 150px;
+  height: 200px;
+}
+.usa {
+  background-image: url("foto/USA.png");
+  background-size: cover;
+  border: 2px solid black;
+  width: 150px;
+  height: 200px;
+}
+.mexico {
+  background-image: url("foto/Mexico.png");
+  background-size: cover;
+  border: 2px solid black;
+  width: 150px;
+  height: 200px;
+}
+.tex {
+  color: #ffffff;
+  -webkit-text-stroke: 1px #000000;
+  font-size: 22px;
+  font-weight: 700;
+}
+.texx {
+  color: #000000;
+  -webkit-text-stroke: 1px #fffbfb;
+  font-size: 22px;
+  font-weight: 700;
+  background-color: rgba(0, 0, 0, 0.245);
+}
+p {
+  font-family:
+    Iosevka Charon,
+    monospace;
+}
+.footerP {
+  font-family: Ubuntu;
+  display: flex;
+  justify-content: center;
+}
+.pop {
+  align-self: flex-end;
+}
+footer {
+  background-color: #f4f4f4;
+  width: 100%;
+  font-size: 30px;
+}
+.footerNAV {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+a {
+  display: inline-block;
+  color: #ffffff;
+  background-color: #000000;
+  text-decoration: none;
+  padding: 4px 15px;
+  border-radius: 6px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
